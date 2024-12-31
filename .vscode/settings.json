@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "C_Cpp.default.compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+        "C_Cpp.default.includePath": [
+        "C:/msys64/mingw64/include",
+        "C:/msys64/mingw64/include/SDL2"
+        ],
+        "C_Cpp.default.defines": ["SDL_MAIN_HANDLED"],
+        "C_Cpp.default.libPath": [
+          "C:/msys64/mingw64/lib"
+        ]
+}

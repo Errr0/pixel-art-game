@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "build\\main.exe",
+                "src\\main.cpp",
+                "-lSDL2",
+                "-lopengl32",
+                "-L/c/msys64/mingw64/lib",
+                "-I/c/msys64/mingw64/include/SDL2",
+                "-mconsole"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task by Debugger."
+        }
+    ]
+}

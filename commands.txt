@@ -1,0 +1,2 @@
+ctrl+shift+b to compile
+.\build\main.exe
